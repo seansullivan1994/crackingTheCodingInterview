@@ -3,7 +3,8 @@ package com.CrackingTheCodingInterview.ArraysAndStrings;
 public class Main {
 
     public static void main(String[] args) {
-
+        System.out.println(maskify("test"));
+        System.out.println(maskify("0123456789"));
     }
 
     public static String maskify(String str) {
